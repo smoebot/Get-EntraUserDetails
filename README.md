@@ -18,5 +18,5 @@ The email address you are searching for.  This should be the primary email, or t
 **Examples**
 
 ```powershell
-Get-EntraUserDetails -Email elaine.benes@madeupdomain.com
+Get-EntraUserDetails -Email elaine.benes@jpetermancatalog.com
 ```
