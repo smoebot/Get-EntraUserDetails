@@ -11,7 +11,7 @@ function Get-EntraUserDetails {
         Author: Joel Ashman
         v0.1 - (2023-12-18) Initial version
     .EXAMPLE
-        Get-EntraUserDetails -Email elaine.benes@madeupdomain.com
+        Get-EntraUserDetails -Email elaine.benes@jpetermancatalog.com
     #>
 
     #requires -version 7
@@ -88,7 +88,6 @@ function Get-EntraUserDetails {
         catch{
             Write-Host -ForegroundColor Red "Something went wrong.  Not authenticated to MS Graph API.  Exiting"
         }
-        
     }
 
     # If we are already authenticated, then run as normal
